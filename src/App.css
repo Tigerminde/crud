@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  box-sizing: content-box;
+}
+
+.material-icons {
+  cursor: pointer;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000000;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 25px;
+}
+
+.refresh {
+  color: #1ac51a;
+}
+
+.delete {
+  color: red;
+  position: absolute;
+  top: -13px;
+  right: -13px;
+  background-color: white;
+}
+
+.list-notes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.block-item-note {
+  position: relative;
+  width: 250px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+}
+
+textarea {
+  height: 100px;
+  border-radius: 5px;
+}
+
+.send {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
